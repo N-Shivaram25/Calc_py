@@ -10,7 +10,7 @@ def add(a, b):
     return a + b
 
 def subtract(a, b):
-    return a-b    
+    return a - b    
 
 def multiply(a, b):
     
@@ -26,7 +26,7 @@ def calculator():
     a, b = get_input()
     print(f"\nYou entered: a = {a}, b = {b}")
     print(f"1. Addition: {add(a, b)}")
-    
+    print(f"2. Subtraction:{subtract(a,b)}")
 
 if __name__ == "__main__":
     calculator()
